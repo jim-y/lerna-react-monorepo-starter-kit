@@ -1,0 +1,47 @@
+{
+  "name": "@jimy/shared",
+  "version": "0.0.0",
+  "description": "shared components",
+  "keywords": [],
+  "author": "Jim-Y <attila.kling@gmail.com>",
+  "license": "ISC",
+  "main": "./lib/index.js",
+  "types": "./lib/index.d.ts",
+  "files": ["lib"],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jim-y/lerna-react-monorepo-starter-kit.git"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "watch": "tsc -p tsconfig.json --watch",
+    "storybook": "start-storybook -p 6006",
+    "test": "echo \"Error: run tests from root\" && exit 1",
+    "build-storybook": "build-storybook"
+  },
+  "bugs": {
+    "url": "https://github.com/jim-y/lerna-react-monorepo-starter-kit/issues"
+  },
+  "homepage": "https://github.com/jim-y/lerna-react-monorepo-starter-kit#readme",
+  "dependencies": {
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0",
+    "styled-components": "^5.0.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.7",
+    "@storybook/addon-actions": "^5.3.14",
+    "@storybook/addon-links": "^5.3.14",
+    "@storybook/addon-storysource": "^5.3.14",
+    "@storybook/addons": "^5.3.14",
+    "@storybook/react": "^5.3.14",
+    "@types/storybook__react": "^5.2.1",
+    "@types/styled-components": "^5.0.1",
+    "awesome-typescript-loader": "^5.2.1",
+    "babel-loader": "^8.0.6",
+    "typescript": "^3.8.3"
+  }
+}
